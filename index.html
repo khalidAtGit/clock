@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="./media/images/tomato.png" type="image/x-icon">
+        <title>Clock</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <main>
+            <h1 class="title">Timer</h1>
+
+            <div class="timer-container">
+                <h3 class="timer-type" id="timer-type">Session</h3>
+
+                <div class="timer-clock-container">
+                    <text class="timer-clock" id="timer-clock">25:00</text>
+                </div>
+
+                <div class="timer-controls">
+                    <button class="play-pause-button" id="play-pause-button">
+                        <img id="play-icon" src="./media/images/play-button-arrowhead.png" alt="">
+                    </button>
+
+                    <button class="refresh-button" id="refresh-button">
+                        <img src="./media/images/circular-arrrow.png" alt="">
+                    </button>
+                </div>
+            </div>
+
+            <div class="feature-container">
+                <div class="break-length-container">
+                    <h3 class="feature-title">Break Length</h3>
+
+                    <div class="break-controls">
+                        <button class="break-minus hide" id="break-minus">
+                            <img src="./media/images/minus.png" alt="">
+                        </button>
+
+                        <text class="break-length" id="break-length"></text>
+                        
+                        <button class="break-plus" id="break-plus">
+                            <img src="./media/images/plus.png" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="session-length-container">
+                    <h3 class="feature-title">Session Length</h3>
+
+                    <div class="session-controls">
+                        <button class="session-minus" id="session-minus">
+                            <img src="./media/images/minus.png" alt="">
+                        </button>
+
+                        <text class="session-length" id="session-length"></text>
+
+                        <button class="session-plus" id="session-plus">
+                            <img src="./media/images/plus.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <text class="credits">
+            Developed by <a href="https://github.com/khalidAtGit" target="_blank">khalidAtGit</a>
+        </text>
+        <script src="./script.js"></script>
+    </body>
+</html>
