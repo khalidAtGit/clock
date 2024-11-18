@@ -18,7 +18,7 @@ To use the application locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-   git clone 
+   git clone https://github.com/khalidAtGit/clock.git
 ```
 
 2. Navigate to the project directory:
@@ -28,6 +28,11 @@ To use the application locally, follow these steps:
 ```
 
 3. Open the index.html file in your preferred web browser.
+
+## Repository
+
+link- https://github.com/khalidAtGit/clock.git
+
 
 ## Usage
 
